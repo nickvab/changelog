@@ -5,7 +5,7 @@ def changesString = UtilsMobile.getChangeString(this)
 }
 
 pipeline {
-    agent { label 'asus' }
+    agent any
     
     stages {
         stage('Git checkout') {
