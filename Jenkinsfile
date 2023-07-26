@@ -1,3 +1,3 @@
 @Library('changelog') _
 
-Changelog()
+Check()
